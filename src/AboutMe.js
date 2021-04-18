@@ -116,7 +116,7 @@ export default function AboutMe() {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', height: '270px'}}>
             <h1 style={{ display: 'flex', position: 'absolute', fontSize: '50px', alignItems: 'center', justifyContent: 'center', marginTop: '-60px'}}>
-                <img src={aboutme} className='image' style={{
+                <img src={aboutme} style={{
                     height: '80px',
                     width: '80px',
                     padding: '20px'
