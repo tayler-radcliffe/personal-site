@@ -60,9 +60,9 @@ export default function AboutMe() {
             backgroundColor: theme.palette.background.paper,
             display: 'flex',
             position: 'absolute',
-            marginLeft: '-160px',
-            marginTop: '90px',
-            height: 145,
+            marginLeft: '-310px',
+            marginTop: '80px',
+            height: 180,
             fontFamily: "'Share Tech Mono', monospace"
         },
         tabs: {
@@ -95,27 +95,33 @@ export default function AboutMe() {
                         <Tab label="Links" {...a11yProps(2)} />
 
                     </Tabs>
-                    <TabPanel value={value} index={0}>
-                        This is my about me!!!
+                    <TabPanel value={value} index={0} style={{marginTop: '-50px'}}>
+                        <p>My name is Tayler Radcliffe and I'm a <br></br> software developer
+                     located in Jacksonville, Florida.<br></br>
+                     I recently finished a Full-stack Developer<br></br> certificate
+                    with Fullstack Academy and am<br></br> continually growing my knowledge with online courses. </p>
+                   <p> I possess many skills including leadership,<br></br> project management, 
+                    problem-solving and more. <br></br> I strive to excel in every capacity 
+                    and believe <br></br>maximum efficiency, with utmost attention to <br></br> detail, is vital to success. </p>
             </TabPanel>
-                    <TabPanel value={value} index={1}>
-                       <p><a href="mailto:tradcliffe@live.com">tradcliffe@live.com</a></p>
-                        <p>(904) 392-0205</p>
-            </TabPanel>
-                    <TabPanel value={value} index={2}>
+                <TabPanel value={value} index={1} style={{marginLeft: '50px', textAlign: 'center'}}>
+                    <p><a href="mailto:tradcliffe@live.com">tradcliffe@live.com</a></p>
+                    <p>(904) 392-0205</p>
+                </TabPanel>
+                <TabPanel value={value} index={2} style={{marginLeft: '90px', textAlign: 'center'}}>
                     <p><a href="https://github.com/tayler-radcliffe" target="_blank" rel="noreferrer">Github</a></p>
                     <p><a href="https://www.linkedin.com/in/tayler-radcliffe/" target="_blank" rel="noreferrer">LinkedIn</a></p>
-            </TabPanel>
+                </TabPanel>
 
                 </div>
-            </ThemeProvider>
+            </ThemeProvider >
         );
     }
 
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', height: '270px'}}>
-            <h1 style={{ display: 'flex', position: 'absolute', fontSize: '50px', alignItems: 'center', justifyContent: 'center', marginTop: '-60px'}}>
+        <div style={{ display: 'flex', justifyContent: 'center', height: '320px' }}>
+            <h1 style={{ display: 'flex', position: 'absolute', fontSize: '50px', alignItems: 'center', justifyContent: 'center', marginTop: '-60px' }}>
                 <img src={aboutme} alt='about me icon' style={{
                     height: '80px',
                     width: '80px',
