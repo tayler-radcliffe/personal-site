@@ -103,8 +103,8 @@ export default function AboutMe() {
                         <p>(904) 392-0205</p>
             </TabPanel>
                     <TabPanel value={value} index={2}>
-                    <p><a href="https://github.com/tayler-radcliffe" target="_blank">Github</a></p>
-                    <p><a href="https://www.linkedin.com/in/tayler-radcliffe/" target="_blank">LinkedIn</a></p>
+                    <p><a href="https://github.com/tayler-radcliffe" target="_blank" rel="noreferrer">Github</a></p>
+                    <p><a href="https://www.linkedin.com/in/tayler-radcliffe/" target="_blank" rel="noreferrer">LinkedIn</a></p>
             </TabPanel>
 
                 </div>
@@ -116,7 +116,7 @@ export default function AboutMe() {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', height: '270px'}}>
             <h1 style={{ display: 'flex', position: 'absolute', fontSize: '50px', alignItems: 'center', justifyContent: 'center', marginTop: '-60px'}}>
-                <img src={aboutme} style={{
+                <img src={aboutme} alt='about me icon' style={{
                     height: '80px',
                     width: '80px',
                     padding: '20px'
