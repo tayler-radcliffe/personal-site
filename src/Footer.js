@@ -54,7 +54,11 @@ export default function Footer() {
                         e.preventDefault();
                     }}>E-mail me</Button>
                 <Button
-                    variant='contained' color='secondary' style={{display: 'flex', position: 'absolute', marginTop: '250px'}}>Resume</Button></div>
+                    variant='contained' color='secondary' style={{display: 'flex', position: 'absolute', marginTop: '250px'}}
+                    onClick={(e) => {
+                        window.open("https://docs.google.com/document/d/16iDQRtCA0OttwC-dlbVcIx8Tip68fCRtf4gU27sv3yk/edit?usp=sharing");
+                        e.preventDefault();
+                    }}>Resume</Button></div>
         </div>
         </ThemeProvider>
     )
