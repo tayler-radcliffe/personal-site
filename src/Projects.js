@@ -3,6 +3,7 @@ import './Projects.css';
 import portfolio from './images/portfolioicon.png';
 import fitnesspic from './images/fitnesstracker.png';
 import linkeratorpic from './images/linkeratorpic.png';
+import vivid from './images/vividinc.png';
 
 export default function Projects() {
     return (
@@ -13,12 +14,12 @@ export default function Projects() {
 			<div >
 			<div class="grid">
 					<figure class="effect-sarah">
-						<img src={linkeratorpic} alt="linkerator" />
+						<img src={vivid} alt="linkerator" />
 						<figcaption>
-							<h2>Placeholder <span>Project</span></h2>
+							<h2>VIVID <span>INC</span></h2>
 							<p>An API project
-                                where you can browse products, create an account, add items to your cart, view your profile, leave a review on a product, and much more.</p>
-							<p><a href="https://the-great-linkerator.herokuapp.com/" target="_blank" rel="noreferrer" style={{color: 'white'}}>Deployed Site</a></p>
+                                where you can browse products, create an account, add items to your cart, view your profile, and much more.</p>
+							<p><a href="https://lit-anchorage-06372.herokuapp.com/" target="_blank" rel="noreferrer" style={{color: 'white'}}>Deployed Site</a></p>
 						
 						</figcaption>			
 					</figure>
@@ -31,6 +32,7 @@ export default function Projects() {
 							<h2>Fitness <span>Tracker</span></h2>
 							<p>An API project
                                 where you can create and save fitness routines.</p>
+							<p><a href="https://fitnesstracker.netlify.com/" target="_blank" rel="noreferrer" style={{color: 'white'}}>Deployed Site</a></p>
 						</figcaption>			
 					</figure>
 				</div>
