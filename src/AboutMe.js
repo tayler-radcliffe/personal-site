@@ -60,7 +60,7 @@ export default function AboutMe() {
             backgroundColor: theme.palette.background.paper,
             display: 'flex',
             position: 'absolute',
-            marginLeft: '-310px',
+            marginLeft: '-400px',
             marginTop: '80px',
             height: 180,
             fontFamily: "'Share Tech Mono', monospace"
@@ -96,21 +96,21 @@ export default function AboutMe() {
 
                     </Tabs>
                     <TabPanel value={value} index={0} style={{marginTop: '-50px'}}>
-                        <p>My name is Tayler Radcliffe and I'm a <br></br> software developer
-                     located in Jacksonville, Florida.<br></br>
-                     I recently finished a Full-stack Developer<br></br> certificate
-                    with Fullstack Academy and am<br></br> continually growing my knowledge with online courses. </p>
-                   <p> I possess many skills including leadership,<br></br> project management, 
-                    problem-solving and more. <br></br> I strive to excel in every capacity 
-                    and believe <br></br>maximum efficiency, with utmost attention to <br></br> detail, is vital to success. </p>
+                        <p>My name is Tayler Radcliffe, and I'm a software developer <br></br> based in Jacksonville, Florida. 
+                            I earned my Full-Stack Developer <br></br>certificate from Fullstack Academy and enjoy building clean,<br></br> 
+                            functional web applications with JavaScript, React, and PostgreSQL.</p>
+                           <p>Outside of coding, my background in fast-paced operations and clinical <br></br>
+                            tech workflows taught me how to troubleshoot under pressure, <br></br>communicate clearly, 
+                            and keep projects moving smoothly. <br></br>I care about writing reliable code, 
+                            paying attention to the details, <br></br>and building software that is intuitive to use.</p>
             </TabPanel>
-                <TabPanel value={value} index={1} style={{marginLeft: '50px', textAlign: 'center'}}>
+                <TabPanel value={value} index={1} style={{marginLeft: '150px', textAlign: 'center'}}>
                     <p><a href="mailto:tradcliffe@live.com">tradcliffe@live.com</a></p>
                     <p>(904) 392-0205</p>
                 </TabPanel>
-                <TabPanel value={value} index={2} style={{marginLeft: '90px', textAlign: 'center'}}>
+                <TabPanel value={value} index={2} style={{marginLeft: '200px', textAlign: 'center'}}>
                     <p><a href="https://github.com/tayler-radcliffe" target="_blank" rel="noreferrer">Github</a></p>
-                    <p><a href="https://www.linkedin.com/in/tayler-radcliffe/" target="_blank" rel="noreferrer">LinkedIn</a></p>
+                    <p><a href="https://www.linkedin.com/in/taylerannradcliffe/" target="_blank" rel="noreferrer">LinkedIn</a></p>
                 </TabPanel>
 
                 </div>
@@ -121,7 +121,7 @@ export default function AboutMe() {
 
     return (
         <div style={{ display: 'flex', justifyContent: 'center', height: '320px' }}>
-            <h1 style={{ display: 'flex', position: 'absolute', fontSize: '50px', alignItems: 'center', justifyContent: 'center', marginTop: '-60px' }}>
+            <h1 style={{ display: 'flex', position: 'absolute', fontSize: '50px', alignItems: 'center', justifyContent: 'center', marginTop: '-60px', marginLeft: '-40px' }}>
                 <img src={aboutme} alt='about me icon' style={{
                     height: '80px',
                     width: '80px',

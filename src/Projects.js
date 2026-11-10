@@ -19,7 +19,7 @@ export default function Projects() {
 							<h2>VIVID <span>INC</span></h2>
 							<p>An API project
                                 where you can browse products, create an account, add items to your cart, view your profile, and much more.</p>
-							<p><a href="https://lit-anchorage-06372.herokuapp.com/" target="_blank" rel="noreferrer" style={{color: 'white'}}>Deployed Site</a></p>
+							<p><a href="https://github.com/tayler-radcliffe" target="_blank" rel="noreferrer" style={{color: 'white'}}>Under construction</a></p>
 						
 						</figcaption>			
 					</figure>
@@ -32,7 +32,7 @@ export default function Projects() {
 							<h2>Fitness <span>Tracker</span></h2>
 							<p>An API project
                                 where you can create and save fitness routines.</p>
-							<p><a href="https://fitnesstracker.netlify.com/" target="_blank" rel="noreferrer" style={{color: 'white'}}>Deployed Site</a></p>
+							<p><a href="https://fitness-tracker-frontend-aidc.onrender.com/" target="_blank" rel="noreferrer" style={{color: 'white'}}>Deployed Site</a></p>
 						</figcaption>			
 					</figure>
 				</div>
@@ -44,7 +44,7 @@ export default function Projects() {
 							<h2>The Great <span>Linkerator</span></h2>
 							<p>An API project
                                 where you can save links and keep track of how often you visit them.</p>
-							<p><a href="https://the-great-linkerator.herokuapp.com/" target="_blank" rel="noreferrer" style={{color: 'white'}}>Deployed Site</a></p>
+							<p><a href="https://thegreatlinkerator.onrender.com" target="_blank" rel="noreferrer" style={{color: 'white'}}>Deployed Site</a></p>
 						
 						</figcaption>			
 					</figure>

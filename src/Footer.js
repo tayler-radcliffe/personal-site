@@ -20,6 +20,7 @@ export default function Footer() {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
+            marginLeft:'0px',
             backgroundColor: 'lavender',
             height: '250px',
             paddingBottom: '150px',

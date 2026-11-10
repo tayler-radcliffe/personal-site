@@ -66,14 +66,15 @@ function App(props) {
           <div style={{
             display: 'flex',
             position: 'relative',
-            fontSize: '40px',
+            fontSize: '33px',
             fontWeight: 'bold',
             justifyContent: 'center',
             alignItems: 'center',
-            marginTop: '100px',
+            marginTop: '-20px',
+            marginLeft: '-1050px',
             color: 'white'
           }}><h1>TAYLER RADCLIFFE</h1>
-            <h5 style={{ display: 'flex', position: 'absolute', marginTop: '250px' }}>Software Developer</h5>
+            <h5 style={{ display: 'flex', position: 'absolute', marginTop: '220px', fontSize: '35px', }}>Software Developer</h5>
           </div>
 
           <div class="container" style={{
